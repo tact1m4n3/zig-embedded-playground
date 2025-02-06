@@ -1,0 +1,13 @@
+.{
+    .name = "toto-flight",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zcpu = .{ .path = "lib/zcpu" },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "svd",
+    },
+}
